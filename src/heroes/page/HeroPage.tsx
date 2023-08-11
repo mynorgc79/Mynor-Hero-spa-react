@@ -17,6 +17,7 @@ export const HeroPage = () => {
     navigate(-1);
   }
 
+
   
 
   if (!hero) return <Navigate to="/" />
