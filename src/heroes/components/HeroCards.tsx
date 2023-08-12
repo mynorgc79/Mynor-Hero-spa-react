@@ -13,7 +13,7 @@ const CharactersByHero = ({alter_ego, characters}: CharactersProps) => {
 
 export const HeroCards = (hero: Hero) => {
 
-  const heroImageUrl: string = `/assets/heroes-img/${hero.id}.jpeg`
+  const heroImageUrl: string = `/heroes-img/${hero.id}.jpeg`
 
   return (
     
